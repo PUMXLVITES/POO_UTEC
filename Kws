@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+int main() {
+  const float kw=0.4522, kwad=0.7;
+  float kwconsumido,monto;
+
+  cout << "Ingrese el consumo de Kw: ";
+  cin >> kwconsumido;
+
+  if (kwconsumido<100){
+      monto= kwconsumido*kw;
+    }   else {
+         monto= kwconsumido*100 + ((kwconsumido-100)*kwad);
+       }
+
+ cout << "El monto a pagar es " << monto << " soles \n";
+ return 0;
+}
