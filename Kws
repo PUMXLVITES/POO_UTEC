@@ -18,3 +18,16 @@ int main() {
  cout << "El monto a pagar es " << monto << " soles \n";
  return 0;
 }
+
+//int main (){
+//int kwconsumo;
+//double costo;
+
+//cout<<"Ingrese el consumo de Kw: ";
+//cin >> kwconsumo;
+
+//costo= kwconsumo*0.4522*(kwconsumo<=100) + ((kwconsumo-100)*0.7+ 100*0.4522)*(kwconsumo>100);
+//cout << "El monto a pagar es " << costo<< " soles. \n";
+//return 0;
+
+//}
