@@ -28,6 +28,7 @@ int main() {
 
 //costo= kwconsumo*0.4522*(kwconsumo<=100) + ((kwconsumo-100)*0.7+ 100*0.4522)*(kwconsumo>100);
 //cout << "El monto a pagar es " << costo<< " soles. \n";
+//cout<<"Puma es una...beach";
 //return 0;
 
 //}
